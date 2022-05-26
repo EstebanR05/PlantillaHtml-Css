@@ -1,5 +1,5 @@
 .container {
-    height: 1400px;
+    height: auto;
     width: 1300px;
     background-color: #3498DB;
     border-radius: 15px;
@@ -10,43 +10,79 @@ body {
 }
 
 #header1 {
-    height: 100px;
+    height: 160px;
     width: 1250px;
     background-color: #2980B9;
     border-radius: 15px;
     display: inline-block;
     margin-top: 20px;
+    text-align: center;
+    text-decoration: double;
 }
 
-#nav1 {
-    height: 20px;
-    width: 1250px;
-    background-color: #2980B9;
+#header2{
+    height: 58px;
+    width: 1100px;
+    background-color: #3498DB;
     border-radius: 15px;
     display: inline-block;
+    text-align: center;
+    text-decoration: double;
 }
 
 #aside1 {
-    height: 1100px;
-    width: 350px;
+    height: 7220px;
+    width: 200px;
     background-color: #2980B9;
     border-radius: 15px;
     display: inline-block;
+    margin-top: 5px;
+    margin-left: 27px;
+    margin-right: 2px;
+    float: left;
 }
 
 #section1 {
-    height: 1100px;
-    width: 900px;
+    height: auto;
+    width: 1025px;
     background-color: #2980B9;
     border-radius: 15px;
+    position: relative;
     display: inline-block;
+    top: 5px;
+    left: auto;
+    right: auto;
+
 }
 
 #footer1 {
     height: 100px;
-    width: 1250px;
+    width: 1260px;
     background-color: #2980B9;
     border-radius: 15px;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 10px;
+}
+
+button {
+    border-radius: 15px;
+    background-color: #3498DB;
+}
+
+article{
+    height: auto;
+    width: 900px;
+    border-radius: 15px;
+    background-color: #3498DB;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
